@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
-import { MessageSquare, Smartphone } from "lucide-react";
+import { HardDrive,  Package } from "lucide-react";
 
 const Card = () => {
   const apis = [
     {
-      icon: <MessageSquare className="text-green-600 text-2xl my-4 bg-blue-100 w-12 h-12 rounded-full p-2" />,
+      icon: <HardDrive className="text-[#003366] text-2xl my-4 bg-blue-100 w-12 h-12 rounded-full p-2" />,
       title: "IT  INFRASTRUCTURE  SERVICES",
       description: "At Gold Pack Ltd, We’re all about building and managing the IT foundation you can count on.",
       features: [
@@ -17,7 +17,7 @@ const Card = () => {
       link: "/infrastructure",
     },
     {
-      icon: <Smartphone className="text-blue-700 text-2xl my-4 bg-blue-100 w-12 h-12 rounded-full p-2" />,
+      icon: < Package className="text-[#003366] text-2xl my-4 bg-blue-100 w-12 h-12 rounded-full p-2" />,
       title: "IT EQUIPMENT SUPPLY",
       description: "At Gold Pack Ltd, We deliver the tools you need to get the job done, hassle-free.",
       features: [

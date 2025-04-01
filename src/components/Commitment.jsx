@@ -3,14 +3,14 @@ import { Link } from "react-router-dom";
 const Commitment = () => {
   return (
     <section className="py-16 px-6 md:px-20 flex flex-col md:flex-row xl:flex-row lg:flex-row items-center gap-10 bg-gray-100">
-      {/* Left - Image Section */} 
-      <div className="relative w-full xl:w-1/2 mx-[60px] h-full">
-        <img
-          src="repair.jpg" // Replace with actual image path
-          alt="Client Satisfaction"
-          className="w-full h-full rounded-lg"
-        />
-      </div>
+        {/* Right Image */}
+        <div className="md:w-1/2  flex flex-col  items-center md:items-start relative">
+          <img
+            src="/repair.jpg"
+            alt="IT Agency Illustration"
+            className="w-full max-w-lg rounded-lg"
+          />
+        </div>
 
       {/* Right - Content Section */}
       <div className="w-full md:w-1/2">
@@ -21,7 +21,7 @@ const Commitment = () => {
         We deliver It Equipments and Resolve Problems
         <br /> 
         </h2>
-        <p className="text-gray-600 mt-4 text-lg">
+        <p className="text-gray-600 mt-4">
           <span className="text-[#003366] font-medium">Gold Pack</span>
         {` support clients need to make their vision a reality through accessing
          IT services In the spirit of building closer ties with the communities in which we work, and live Reading Technology and 

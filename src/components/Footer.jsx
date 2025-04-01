@@ -46,23 +46,23 @@ const Footer = () => {
   <ul className="text-gray-300 space-y-2">
     <li className="flex items-center gap-2 hover:text-blue-400 cursor-pointer">
       <Home size={18} className="text-blue-400"/>
-      Home
+      <a href="/">Home</a>
     </li>
     <li className="flex items-center gap-2 hover:text-blue-400 cursor-pointer">
       <Navigation size={18} className="text-blue-400"/>
-      About Us
+      <a href="/about">About Us</a>
     </li>
     <li className="flex items-center gap-2 hover:text-blue-400 cursor-pointer">
       <Wrench size={18} className="text-blue-400"/>
-      Service
+      <a href="/service">Service</a>
     </li>
     <li className="flex items-center gap-2 hover:text-blue-400 cursor-pointer">
       <Package size={18} className="text-blue-400"/>
-      Product
+     <a href="/laptops">Product</a> 
     </li>
     <li className="flex items-center gap-2 hover:text-blue-400 cursor-pointer">
       <MessageCircle size={18} className="text-blue-400"/>
-      Contact Us
+      <a href="/contact">Contact Us</a>
     </li>
   </ul>
 </div>
@@ -118,7 +118,7 @@ const Footer = () => {
       </div>
 
       {/* Footer Bottom */}
-      <div className="text-center text-blue-400 text-sm mt-10 border-t border-gray-700 pt-4">
+      <div className="text-center text-blue-400 text-lg mt-10 border-t border-gray-700 pt-4">
         Gold Pack <span className="text-white">© All Rights Reserved.</span>
       </div>
        {/* Back to Top Button */}

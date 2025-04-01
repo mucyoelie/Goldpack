@@ -7,23 +7,28 @@ const WhyChooseUs = () => {
         {/* Left Content */}
         <div className="md:w-1/2">
           <h3 className="text-blue-600 font-semibold uppercase">Why Choose Us</h3>
-          <h2 className="text-4xl font-bold text-gray-900 mt-2">
-            What we promise high quality IT Agency Services
-          </h2>
           <p className="text-gray-600 mt-4">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere
-            voluptate a quis est ullam impedit, tempora eaque maxime.
+          At Gold Pack Ltd, we don’t just deliver IT products—we provide reliable, tailor-made solutions that empower your business. 
+          With a deep understanding of the local market and strong partnerships with global brands, we ensure quality, affordability, and fast delivery every time.
           </p>
 
           {/* Features List */}
           <div className="mt-6 space-y-4">
             <div className="flex items-center gap-3">
               <CheckCircle className="text-blue-500" size={24} />
-              <p className="text-gray-800 font-semibold">Experts around the world</p>
+              <p className="text-gray-800 font-semibold">Trusted local and international experience</p>
             </div>
             <div className="flex items-center gap-3">
               <CheckCircle className="text-blue-500" size={24} />
-              <p className="text-gray-800 font-semibold">Best Practice for industry</p>
+              <p className="text-gray-800 font-semibold">Certified professionals with hands-on expertise</p>
+            </div>
+            <div className="flex items-center gap-3">
+              <CheckCircle className="text-blue-500" size={24} />
+              <p className="text-gray-800 font-semibold">End-to-end IT solutions—from sales to support</p>
+            </div>
+            <div className="flex items-center gap-3">
+              <CheckCircle className="text-blue-500" size={24} />
+              <p className="text-gray-800 font-semibold">Quick response and personalized customer service</p>
             </div>
           </div>
         </div>
