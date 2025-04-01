@@ -112,16 +112,16 @@ function Navbar() {
             {dropdownOpen && (
               <ul className="bg-gray-100 mt-2 rounded-md">
                 <li>
-                  <Link to="/laptops" className="block px-4 py-2 hover:bg-gray-200">Laptop & Desktop</Link>
+                  <Link to="/laptops" className="block px-4 py-2 hover:bg-gray-200" onClick={toggleMenu}>Laptop & Desktop</Link>
                 </li>
                 <li>
-                  <Link to="/servers" className="block px-4 py-2 hover:bg-gray-200">Server</Link>
+                  <Link to="/servers" className="block px-4 py-2 hover:bg-gray-200 " onClick={toggleMenu}>Server</Link>
                 </li>
                 <li>
-                  <Link to="/switches" className="block px-4 py-2 hover:bg-gray-200">Switch & Hubs</Link>
+                  <Link to="/switches" className="block px-4 py-2 hover:bg-gray-200" onClick={toggleMenu}>Switch & Hubs</Link>
                 </li>
                 <li>
-                  <Link to="/routes" className="block px-4 py-2 hover:bg-gray-200">Router</Link>
+                  <Link to="/routes" className="block px-4 py-2 hover:bg-gray-200" onClick={toggleMenu}>Router</Link>
                 </li>
               </ul>
             )}

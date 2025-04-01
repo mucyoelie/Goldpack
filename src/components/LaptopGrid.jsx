@@ -1,10 +1,10 @@
 import { useState } from "react";
 
 const laptops = [
-  { id: 1, name: "MacBook Pro 16", description: "Apple M2 chip, 16GB RAM, 512GB SSD.", image: "network1.jpg" },
-  { id: 2, name: "Dell XPS 13", description: "Intel Core i7, 16GB RAM, 1TB SSD.", image: "network1.jpg" },
-  { id: 3, name: "HP Spectre x360", description: "Intel Core i5, 8GB RAM, 512GB SSD.", image: "network1.jpg" },
-  { id: 3, name: "HP Spectre x360", description: "Intel Core i5, 8GB RAM, 512GB SSD.", image: "network1.jpg" }
+  { id: 1, name: "MacBook Pro 16", description: "Apple M2 chip, 16GB RAM, 512GB SSD.", image: "macbookpro.jpeg" },
+  { id: 2, name: "Dell XPS 13", description: "Intel Core i7, 16GB RAM, 1TB SSD.", image: "dellpc.jpeg" },
+  { id: 3, name: "HP Spectre x360", description: "Intel Core i5, 8GB RAM, 512GB SSD.", image: "hppc.jpeg" },
+  { id: 3, name: "Lenovo ThinkPad", description: "Intel Core i5, 8GB RAM, 512GB SSD.", image: "lenovopc.jpeg" }
 
 ];
 
@@ -32,7 +32,7 @@ function LaptopGrid() {
       <div className="grid md:grid-cols-4 sm:grid-cols-2 gap-6">
         {laptops.map((laptop) => (
           <div key={laptop.id} className="bg-white shadow-lg rounded-lg overflow-hidden transform transition duration-300 hover:scale-105 p-2">
-            <img src={laptop.image} alt={laptop.name} className="w-full h-48 object-cover rounded-lg my-4" />
+            <img src={laptop.image} alt={laptop.name} className="w-60 h-60  rounded-lg my-4" />
             <div className="p-4">
               <h3 className="text-xl font-semibold text-[#003366]">{laptop.name}</h3>
               <p className="text-gray-600 mt-2">{laptop.description}</p>

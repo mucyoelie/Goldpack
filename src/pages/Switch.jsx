@@ -1,10 +1,10 @@
 import { useState } from "react";
 
 const Switches = [
-    { id: 1, name: "Cisco Catalyst 2960-X", description: "24-Port Gigabit Ethernet, Layer 2, PoE support.", image: "network1.jpg" },
-    { id: 2, name: "Ubiquiti UniFi Switch 48", description: "48-Port Managed Gigabit Switch, PoE+ support, SFP+ uplinks.", image: "network1.jpg" },
-    { id: 3, name: "Netgear GS752TP", description: "48-Port Smart Managed Pro PoE+ Gigabit Switch, 4 SFP Ports.", image: "network1.jpg" },
-    { id: 4, name: "HP Aruba 2930F", description: "24-Port Gigabit Switch, Layer 3, PoE+, 4 SFP uplinks.", image: "network1.jpg" }
+    { id: 1, name: "Cisco Catalyst 2960-X", description: "24-Port Gigabit Ethernet, Layer 2, PoE support.", image: "ciscoswitch.jpeg" },
+    { id: 2, name: "Ubiquiti UniFi Switch 48", description: "48-Port Managed Gigabit Switch, PoE+ support, SFP+ uplinks.", image: "switch2.jpeg" },
+    { id: 3, name: "Netgear GS752TP", description: "48-Port Smart Managed Pro PoE+ Gigabit Switch, 4 SFP Ports.", image: "switch1.jpeg" },
+    { id: 4, name: "HP Aruba 2930F", description: "24-Port Gigabit Switch, Layer 3, PoE+, 4 SFP uplinks.", image: "switch3.jpeg" }
   ];
   
 

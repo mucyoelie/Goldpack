@@ -1,4 +1,4 @@
-import { FaArrowRight, FaPlay } from "react-icons/fa";
+
 import { Link } from "react-router-dom";
 const Commitment = () => {
   return (
@@ -8,7 +8,7 @@ const Commitment = () => {
           <img
             src="/repair.jpg"
             alt="IT Agency Illustration"
-            className="w-full max-w-lg rounded-lg"
+            className="w-full max-w-lg rounded-lg xl:ml-4 xl:h-[25rem]"
           />
         </div>
 
@@ -22,7 +22,7 @@ const Commitment = () => {
         <br /> 
         </h2>
         <p className="text-gray-600 mt-4">
-          <span className="text-[#003366] font-medium">Gold Pack</span>
+          <span className="text-[#003366] font-medium">GoldPack</span>
         {` support clients need to make their vision a reality through accessing
          IT services In the spirit of building closer ties with the communities in which we work, and live Reading Technology and 
          its employees play an active role in large number of local effort for the clients.`}
@@ -46,10 +46,6 @@ const Commitment = () => {
           <button className="bg-[#003366] text-white px-2 py-3 rounded-lg flex items-center gap-2 shadow-lg hover:bg-blue-500 transition">
           <Link to="/contact" className="px-2">Get A Quote 
           </Link>
-          <FaArrowRight />
-          </button>
-          <button className="flex items-center gap-2 text-blue-600 font-semibold">
-            <FaPlay className="bg-gray-900 p-2 rounded-full" /> How We Work
           </button>
         </div>
       </div>

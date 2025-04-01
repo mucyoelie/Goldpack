@@ -1,10 +1,10 @@
 import { useState } from "react";
 
 const servers = [
-  { id: 1, name: "Dell PowerEdge R740", description: "Dual Intel Xeon, 64GB RAM, 1TB SSD.", image: "network2.jpg" },
-  { id: 2, name: "HP ProLiant DL380 Gen10", description: "Intel Xeon Scalable, 128GB RAM, 2TB HDD.", image: "network2.jpg" },
-  { id: 3, name: "Lenovo ThinkSystem SR650", description: "Intel Xeon Silver 4210, 32GB RAM, 512GB SSD.", image: "network2.jpg" },
-  { id: 4, name: "Supermicro X11SPA-T", description: "Intel Xeon W-3275, 256GB RAM, 2TB SSD.", image: "network2.jpg" }
+  { id: 1, name: "Dell PowerEdge R740", description: "Dual Intel Xeon, 64GB RAM, 1TB SSD.", image: "server1.jpeg" },
+  { id: 2, name: "HP ProLiant DL380 Gen10", description: "Intel Xeon Scalable, 128GB RAM, 2TB HDD.", image: "server2.jpg" },
+  { id: 3, name: "Lenovo ThinkSystem SR650", description: "Intel Xeon Silver 4210, 32GB RAM, 512GB SSD.", image: "server3.jpeg" },
+  { id: 4, name: "Supermicro X11SPA-T", description: "Intel Xeon W-3275, 256GB RAM, 2TB SSD.", image: "server4.jpeg" }
 ];
 
 

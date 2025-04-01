@@ -1,10 +1,10 @@
 import { useState } from "react";
 
 const routes = [
-  { id: 1, name: "Cisco ISR 1100", description: "Gigabit Ethernet, VPN support, SD-WAN enabled.", image: "consultancy4.jpg" },
-  { id: 2, name: "MikroTik RB4011", description: "10x Gigabit ports, 1x 10Gbps SFP+, Quad-core CPU.", image: "consultancy4.jpg" },
-  { id: 3, name: "Ubiquiti EdgeRouter 4", description: "4-Port Gigabit, 1 million packets per second, PoE input.", image: "consultancy4.jpg" },
-  { id: 4, name: "TP-Link TL-R605", description: "5-Port Gigabit VPN Router, Load Balancing, Omada SDN support.", image: "consultancy4.jpg" }
+  { id: 1, name: "Cisco ISR 1100", description: "Gigabit Ethernet, VPN support, SD-WAN enabled.", image: "router1.jpeg" },
+  { id: 2, name: "MikroTik RB4011", description: "10x Gigabit ports, 1x 10Gbps SFP+, Quad-core CPU.", image: "router3.png" },
+  { id: 3, name: "Ubiquiti EdgeRouter 4", description: "4-Port Gigabit, 1 million packets per second, PoE input.", image: "router4.jpeg" },
+  { id: 4, name: "TP-Link TL-R605", description: "5-Port Gigabit VPN Router, Load Balancing, Omada SDN support.", image: "router5.jpeg" }
 ];
 
 
