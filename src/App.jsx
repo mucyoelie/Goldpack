@@ -14,6 +14,7 @@ import Infrastructure from "./components/Infrastructure ";
 import Equipment from "./components/Equipment";
 import LoadingSpinner from "./components/LoadingSpinner";
 import { useEffect, useState } from "react";
+import NotFound from "./pages/NotFound"; // Optional: 404 Page
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -45,6 +46,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/infrastructure" element={<Infrastructure />} />
           <Route path="/equipment" element={<Equipment />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </Router>
       <Footer />
