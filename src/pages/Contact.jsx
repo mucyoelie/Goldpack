@@ -113,7 +113,7 @@ const Contact = () =>{
             <FaLinkedin size={35} />
             </a>
              {/*Instagram */}
-            <a href="https://www.instagram.com/mucyo.web/" 
+            <a href="https://www.instagram.com/goldpackltd/" 
              target="_blank" rel="noopener noreferrer" 
             className="text-red-700 hover:text-teal-500">
             <FaInstagram size={35} />
@@ -129,7 +129,7 @@ const Contact = () =>{
               <BsFillTelephoneFill size={35} />
               </a>
                {/*FaceBook*/}
-            <a href="https://www.facebook.com/mucyo.eliequintano/" 
+            <a href="https://www.facebook.com/gonzague.nshizirungu" 
             target="_blank" rel="noopener noreferrer" 
             className="text-blue-600 hover:text-teal-500">
               <FaFacebook size={35} />

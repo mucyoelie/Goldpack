@@ -1,5 +1,6 @@
 
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaTwitter, FaLinkedinIn,FaInstagram } from "react-icons/fa";
+import { IoLogoWhatsapp } from 'react-icons/io';
 import {
    MapPin, 
    Phone, 
@@ -34,9 +35,11 @@ const Footer = () => {
           </p>
           {/* Social Icons */}
           <div className="flex gap-4 mt-4">
-            <FaFacebookF className="text-lg hover:text-blue-400 cursor-pointer" />
-            <FaTwitter className="text-lg hover:text-blue-400 cursor-pointer" />
-            <FaLinkedinIn className="text-lg hover:text-blue-400 cursor-pointer" />
+            <a href="https://www.facebook.com/gonzague.nshizirungu" target="_blank" rel="noopener noreferrer" ><FaFacebookF className="text-lg text-blue-400 cursor-pointer" /></a>
+            <a href="https://www.facebook.com/gonzague.nshizirungu" target="_blank" rel="noopener noreferrer" ><FaTwitter className="text-lg text-blue-400 cursor-pointer" /></a>
+            <a href="https://www.facebook.com/gonzague.nshizirungu" target="_blank" rel="noopener noreferrer" ><FaLinkedinIn className="text-lg text-blue-400 cursor-pointer" /></a>
+            <a href="https://www.instagram.com/goldpackltd/" target="_blank" rel="noopener noreferrer" ><FaInstagram  className="text-lg text-blue-400 cursor-pointer" /></a>
+            <a href="https://wa.me/250783455279" target="_blank" rel="noopener noreferrer" ><IoLogoWhatsapp  className="text-lg text-blue-400 cursor-pointer" /></a>
           </div>
         </div>
 
